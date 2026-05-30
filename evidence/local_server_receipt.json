@@ -1,8 +1,8 @@
 {
     "url":  "http://127.0.0.1:4286",
-    "pid":  8344,
-    "binary":  "C:\\git\\v_projects\\out\\debutckd_server.exe",
+    "pid":  20332,
+    "binary":  "C:\\git\\v_projects\\out\\debutckd_v100.exe",
     "status_code":  200,
     "title":  true,
-    "generated_at":  "2026-05-30T04:23:13"
+    "generated_at":  "2026-05-30T06:01:22.8798075-06:00"
 }
