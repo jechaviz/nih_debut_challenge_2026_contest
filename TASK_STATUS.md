@@ -59,6 +59,8 @@ private roster/signatures, faculty sponsor letter, final PDF and final video URL
 - [x] Checklist y riesgos creados.
 - [x] Submission packet creado.
 - [x] Automation draft/preflight preparada.
+- [x] V tests, package QA and WAIBA preflight receipts generated.
+- [x] Desktop and mobile web render screenshots captured.
 - [ ] Equipo undergraduate real confirmado.
 - [ ] Certification form firmado por todos los estudiantes.
 - [ ] Faculty sponsor letter final agregada.

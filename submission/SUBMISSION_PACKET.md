@@ -18,6 +18,9 @@ Status: `ready_for_undergraduate_team_submission`
 - Optional VentureWell appendix: `submission/venturewell_10page_appendix_draft.md`
 - Payload template: `submission/nih_submission_payload.template.json`
 - Form map: `submission/form_map.yml`
+- Desktop screenshot: `evidence/web_demo_desktop.png`
+- Mobile screenshot: `evidence/web_demo_mobile.png`
+- Automation receipts: `automation/evidence/`
 
 ## Product links
 

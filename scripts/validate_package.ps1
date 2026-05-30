@@ -19,10 +19,15 @@ $Required = @(
   "submission/generated/nih_registration_payload.redacted.json",
   "evidence/readiness_report_v.json",
   "evidence/case_results_v.json",
+  "evidence/local_server_receipt.json",
+  "evidence/web_demo_desktop.png",
+  "evidence/web_demo_mobile.png",
   "automation/README.md",
   "automation/form_inventory.yml",
   "automation/waiba/debut_registration_draft.playbook.yml",
-  "automation/waiba/debut_dashboard_submission_preflight.playbook.yml"
+  "automation/waiba/debut_dashboard_submission_preflight.playbook.yml",
+  "automation/evidence/registration-draft/debut_registration_draft_trace.jsonl",
+  "automation/evidence/dashboard-preflight/debut_dashboard_submission_preflight_trace.jsonl"
 )
 
 $ExternalRequired = @(

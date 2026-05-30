@@ -10,6 +10,8 @@ Status: `ready_for_undergraduate_team_submission`
 - [x] Vue3 demo.
 - [x] Synthetic data and tests.
 - [x] Readiness report and manifest.
+- [x] Desktop and mobile screenshot evidence.
+- [x] WAIBA draft/preflight receipts.
 - [x] 6-page narrative draft.
 - [x] Video outline.
 - [x] Risk register.
