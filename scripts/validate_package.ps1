@@ -1,6 +1,17 @@
 $ErrorActionPreference = "Stop"
 
 $Root = Split-Path -Parent $PSScriptRoot
+
+function Invoke-NativeChecked {
+  param(
+    [Parameter(Mandatory = $true)][string]$FilePath,
+    [Parameter(Mandatory = $true)][string[]]$Arguments
+  )
+  & $FilePath @Arguments
+  if ($LASTEXITCODE -ne 0) {
+    throw "$FilePath failed with exit code $LASTEXITCODE"
+  }
+}
 $Required = @(
   "TASK_STATUS.md",
   "docs/official_requirements.md",
@@ -51,8 +62,10 @@ foreach ($Path in $ExternalRequired) {
 $env:VMODULES = "C:\git\v_projects\lib"
 Push-Location C:\git\v_projects\nih_debut_challenge_2026
 try {
-  v test .
-  v run .\cmd\debutckd qa --worth-it $Root --site C:\git\websites\nih_debut_challenge_2026
+  Invoke-NativeChecked "v" @("test", ".")
+  $QaExe = Join-Path $env:TEMP "debutckd_qa_validation.exe"
+  Invoke-NativeChecked "v" @("-o", $QaExe, ".\cmd\debutckd")
+  Invoke-NativeChecked $QaExe @("qa", "--worth-it", $Root, "--site", "C:\git\websites\nih_debut_challenge_2026")
 } finally {
   Pop-Location
 }
