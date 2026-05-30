@@ -1,0 +1,9 @@
+id,age,sex,creatinine_mg_dl,uacr_mg_g,has_diabetes,has_hypertension,systolic_bp,symptoms,expected_risk_band,expected_action_key
+RC-001,44,female,0.8,12.0,false,false,118,,low,routine_prevention
+RC-002,59,male,1.1,88.0,true,true,146,,moderate,repeat_labs_and_primary_care
+RC-003,67,female,1.4,48.0,true,false,136,,very_high,nephrology_referral
+RC-004,72,male,2.1,410.0,true,true,158,,very_high,nephrology_referral
+RC-005,81,female,3.2,620.0,false,true,166,,very_high,urgent_clinician_review
+RC-006,63,male,4.8,700.0,true,true,188,confusion,very_high,urgent_clinician_review
+RC-007,53,female,1.0,360.0,false,true,142,,high,nephrology_referral
+RC-008,38,male,1.0,25.0,false,true,151,,low,repeat_labs_and_primary_care

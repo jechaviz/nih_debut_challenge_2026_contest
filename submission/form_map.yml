@@ -1,0 +1,32 @@
+version: nih_debut_challenge_2026.v1
+track: student_partner_track
+portal_start: https://venturewell.org/debut/
+final_submit_allowed: false
+fields:
+  project_title:
+    source: submission/nih_submission_payload.template.json#project_title
+    required: true
+  team_name:
+    source: student_team_private_intake
+    required: true
+  team_roster:
+    source: certification_form_private
+    required: true
+  captain_email:
+    source: student_team_private_intake
+    required: true
+  institution:
+    source: student_team_private_intake
+    required: true
+  faculty_sponsor_letter:
+    source: private_final_pdf
+    required: true
+  project_pdf:
+    source: private_final_pdf
+    required: true
+  video_url:
+    source: private_video_upload
+    required: true
+  venturewell_opt_in:
+    source: captain_decision
+    required: false

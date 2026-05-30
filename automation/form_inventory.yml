@@ -1,0 +1,15 @@
+version: nih_debut_challenge_2026.forms.v1
+official_pages:
+  - name: NIH challenge page
+    url: https://www.nih.gov/challenges/2026-design-biomedical-undergraduate-teams-debut-challenge
+  - name: VentureWell DEBUT page
+    url: https://venturewell.org/debut/
+local_artifacts:
+  - submission/nih_submission_payload.template.json
+  - submission/form_map.yml
+  - submission/project_narrative_6page_draft.md
+  - docs/checklist.md
+submit_policy:
+  final_submit_allowed: false
+  private_data_in_repo_allowed: false
+  explicit_captain_confirmation_required: true

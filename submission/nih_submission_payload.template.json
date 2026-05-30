@@ -1,0 +1,20 @@
+{
+  "competition": "NIH DEBUT Challenge 2026",
+  "internal_track": "student_partner_track",
+  "project_title": "RenalCue: Community CKD Triage Software",
+  "team_name": "PRIVATE_REQUIRED_UNDERGRAD_TEAM",
+  "team_size": "PRIVATE_REQUIRED_3_TO_8",
+  "captain": {
+    "name": "PRIVATE_REQUIRED",
+    "email": "PRIVATE_REQUIRED",
+    "citizenship_or_permanent_resident": "PRIVATE_REQUIRED"
+  },
+  "institution": "PRIVATE_REQUIRED_US_COLLEGE_OR_UNIVERSITY",
+  "faculty_sponsor": "PRIVATE_REQUIRED",
+  "primary_prize_fit": "NIDDK Kidney Technology Development Prize",
+  "secondary_prize_fit": "Healthcare Technologies for Low-Resource Settings Prize",
+  "project_summary": "RenalCue combines eGFR, UACR, blood pressure and red-flag checks into explainable CKD triage receipts for low-resource community workflows.",
+  "pdf_upload": "PRIVATE_REQUIRED_FINAL_SINGLE_PDF",
+  "video_url": "PRIVATE_REQUIRED_3_MIN_VIDEO",
+  "final_submit_allowed": false
+}

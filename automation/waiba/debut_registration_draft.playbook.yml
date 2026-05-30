@@ -1,0 +1,76 @@
+metadata:
+  name: debut-registration-draft
+  description: Prepare NIH DEBUT registration draft checks without submitting external forms.
+
+variables:
+  PROJECT_DIR: "${ROOT_PLAYBOOK_DIR}/../.."
+  SUBMISSION_DIR: "${PROJECT_DIR}/submission"
+  PAYLOAD_TEMPLATE: "${SUBMISSION_DIR}/nih_submission_payload.template.json"
+  FORM_MAP: "${SUBMISSION_DIR}/form_map.yml"
+  TEAM_GATE: "${PROJECT_DIR}/docs/undergraduate_team_required.md"
+  EVIDENCE_DIR: "${PROJECT_DIR}/automation/evidence/registration-draft"
+  TRACE_PATH: "${EVIDENCE_DIR}/debut_registration_draft_trace.jsonl"
+  OFFICIAL_REGISTER_URL: "https://venturewell.org/debut/"
+
+steps:
+  prod:
+    - action: FS.EnsureDir
+      params:
+        path: "${EVIDENCE_DIR}"
+
+    - action: Trace.Event
+      params:
+        path: "${TRACE_PATH}"
+        name: "registration_draft_start"
+        message: "NIH DEBUT registration draft preflight started."
+        data:
+          dry_run: true
+          final_submit_allowed: false
+          form_url: "${OFFICIAL_REGISTER_URL}"
+
+    - action: FS.Exists
+      register: payload_exists
+      params:
+        path: "${PAYLOAD_TEMPLATE}"
+
+    - action: FS.Exists
+      register: form_map_exists
+      params:
+        path: "${FORM_MAP}"
+
+    - action: FS.Exists
+      register: team_gate_exists
+      params:
+        path: "${TEAM_GATE}"
+
+    - action: Trace.Event
+      params:
+        path: "${TRACE_PATH}"
+        name: "local_artifact_check"
+        message: "Checked payload, form map and undergraduate team gate."
+        data:
+          payload_exists: "${payload_exists}"
+          form_map_exists: "${form_map_exists}"
+          team_gate_exists: "${team_gate_exists}"
+
+    - action: Browser.Open
+      register: browser_contract
+      params:
+        mock: true
+        url: "${OFFICIAL_REGISTER_URL}"
+
+    - action: Trace.Event
+      params:
+        path: "${TRACE_PATH}"
+        name: "operator_handoff_policy"
+        message: "Private identity fields, signatures and final submit remain operator-only gates."
+        data:
+          browser_contract_opened: "${browser_contract.opened}"
+          private_student_data_allowed_in_repo: false
+          final_submit_allowed: false
+          eligible_undergraduate_captain_required: true
+
+  debug:
+    - action: Note
+      params:
+        text: "NIH DEBUT registration draft playbook parses in debug mode."

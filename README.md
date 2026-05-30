@@ -1,38 +1,44 @@
 # NIH DEBUT Challenge 2026
 
 Tag: `worth_it partner`
+Internal track: `student_partner_track`
+Product: `RenalCue: Community CKD Triage Software`
 
-Link: https://www.nih.gov/challenges/2026-design-biomedical-undergraduate-teams-debut-challenge
+Official link: https://www.nih.gov/challenges/2026-design-biomedical-undergraduate-teams-debut-challenge
+
+Remote: https://github.com/jechaviz/nih_debut_challenge_2026_contest
+Product core: https://github.com/jechaviz/nih_debut_challenge_2026
+Web demo: https://github.com/jechaviz/nih_debut_challenge_2026_web
 
 ## Fechas
 
-- Submission period: 2026-01-15 a 2026-06-05 11:59 PM EDT.
+- Challenge launch: 2026-01-15.
+- Submission deadline: 2026-06-05 11:59 PM EDT.
+- Judging: 2026-06-06 to 2026-08-18.
+- Winners announced: 2026-08-25.
 
-## Beneficio
+## Producto
 
-- USD 170k total cash prizes.
+RenalCue is a biomedical software MVP for low-resource chronic kidney disease
+triage. It combines eGFR, UACR, blood pressure, diabetes/hypertension context
+and red-flag symptoms into explainable routing recommendations.
 
-## Requisitos
+## Paquete prod 100
 
-- Equipos undergraduate.
-- Biomedical engineering design project para necesidad clinica/salud no resuelta.
+- Task/status: [TASK_STATUS.md](TASK_STATUS.md)
+- Official requirements: [docs/official_requirements.md](docs/official_requirements.md)
+- Clinical need: [docs/clinical_need.md](docs/clinical_need.md)
+- Undergraduate team gate: [docs/undergraduate_team_required.md](docs/undergraduate_team_required.md)
+- Product architecture: [docs/product_architecture.md](docs/product_architecture.md)
+- MVP demo: [docs/mvp_demo.md](docs/mvp_demo.md)
+- Test cases: [docs/test_cases.md](docs/test_cases.md)
+- Checklist: [docs/checklist.md](docs/checklist.md)
+- Risk register: [docs/risk_register.md](docs/risk_register.md)
+- Submission packet: [submission/SUBMISSION_PACKET.md](submission/SUBMISSION_PACKET.md)
+- Automation: [automation/README.md](automation/README.md)
 
-## Por que vale
+## Local surfaces
 
-No es solo hardware; tambien puede haber software de diagnostico, accesibilidad,
-triage, decision support o low-resource health workflow. Necesita equipo
-undergraduate elegible.
-
-## Producto recomendado
-
-`Low-resource Clinical Intake Assistant`: OCR/voice intake, triage, red flags,
-referral checklist y reporte para clinicas de bajos recursos.
-
-## Sprint de 5 dias
-
-1. Conseguir equipo elegible.
-2. Definir necesidad clinica concreta.
-3. Prototipo con datos sinteticos.
-4. Evaluacion con 5 casos.
-5. Submission packet.
-
+- Vlang core: `C:\git\v_projects\nih_debut_challenge_2026`
+- Web demo: `C:\git\websites\nih_debut_challenge_2026`
+- Evidence/submission hub: `C:\git\v_projects\contests\worth_it\nih_debut_challenge_2026`

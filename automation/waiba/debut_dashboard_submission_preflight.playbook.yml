@@ -1,0 +1,85 @@
+metadata:
+  name: debut-dashboard-submission-preflight
+  description: Verify local NIH DEBUT upload artifacts before an authorized portal session.
+
+variables:
+  PROJECT_DIR: "${ROOT_PLAYBOOK_DIR}/../.."
+  REPORT_DRAFT: "${PROJECT_DIR}/submission/project_narrative_6page_draft.md"
+  TEAM_STATEMENT: "${PROJECT_DIR}/submission/team_statement_draft.md"
+  VIDEO_OUTLINE: "${PROJECT_DIR}/docs/video_outline.md"
+  DEMO_INDEX: "C:/git/websites/nih_debut_challenge_2026/index.html"
+  CHECKLIST: "${PROJECT_DIR}/docs/checklist.md"
+  EVIDENCE_DIR: "${PROJECT_DIR}/automation/evidence/dashboard-preflight"
+  TRACE_PATH: "${EVIDENCE_DIR}/debut_dashboard_submission_preflight_trace.jsonl"
+
+steps:
+  prod:
+    - action: FS.EnsureDir
+      params:
+        path: "${EVIDENCE_DIR}"
+
+    - action: Trace.Event
+      params:
+        path: "${TRACE_PATH}"
+        name: "dashboard_preflight_start"
+        message: "NIH DEBUT dashboard upload preflight started."
+        data:
+          final_submit_allowed: false
+          dashboard_url_expected_from_portal: true
+
+    - action: FS.Exists
+      register: report_exists
+      params:
+        path: "${REPORT_DRAFT}"
+
+    - action: FS.Exists
+      register: statement_exists
+      params:
+        path: "${TEAM_STATEMENT}"
+
+    - action: FS.Exists
+      register: video_outline_exists
+      params:
+        path: "${VIDEO_OUTLINE}"
+
+    - action: FS.Exists
+      register: demo_exists
+      params:
+        path: "${DEMO_INDEX}"
+
+    - action: FS.Exists
+      register: checklist_exists
+      params:
+        path: "${CHECKLIST}"
+
+    - action: Trace.Event
+      params:
+        path: "${TRACE_PATH}"
+        name: "upload_artifact_check"
+        message: "Checked upload draft artifacts."
+        data:
+          report_exists: "${report_exists}"
+          statement_exists: "${statement_exists}"
+          video_outline_exists: "${video_outline_exists}"
+          website_demo_exists: "${demo_exists}"
+          checklist_exists: "${checklist_exists}"
+          missing_private_items:
+            - "final single PDF"
+            - "signed certification form"
+            - "faculty sponsor letter"
+            - "final 3-minute video URL"
+            - "student captain final approval"
+
+    - action: Trace.Event
+      params:
+        path: "${TRACE_PATH}"
+        name: "final_submit_gate"
+        message: "Do not submit until eligible undergraduate captain approves final portal payload."
+        data:
+          final_submit_allowed: false
+          explicit_confirmation_required: true
+
+  debug:
+    - action: Note
+      params:
+        text: "NIH DEBUT dashboard submission preflight playbook parses in debug mode."
