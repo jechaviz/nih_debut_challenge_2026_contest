@@ -10,6 +10,15 @@ health outreach programs that need a low-cost CKD triage workflow. The economic
 value is earlier routing and reduced avoidable referral delay, not replacement
 of clinicians.
 
+## Competitive Landscape
+
+| Alternative | Gap | RenalCue advantage |
+| --- | --- | --- |
+| eGFR calculators | Single value, no workflow receipt | Adds UACR, BP context, validation and route |
+| KFRE web tools | Strong risk estimate but limited intake workflow | Designed for community screening handoff |
+| EHR alerts | Requires integration and may be ignored | Works as standalone prototype and visible receipt |
+| Paper referral forms | Manual, variable and hard to audit | Generates structured evidence for review |
+
 ## Regulatory Path
 
 The MVP is framed as clinician-facing decision support and educational
@@ -27,3 +36,10 @@ in the final video or PDF.
 The first viable adoption path is a supervised pilot with a community clinic or
 university outreach program, followed by evidence of workflow time saved,
 clinician acceptance and referral appropriateness.
+
+## IP And Software Protection
+
+Protectable assets are the original codebase, workflow design, documentation,
+test fixtures, case-receipt format and brand. Patentability should be reviewed
+only after the undergraduate team and institution clarify ownership and prior
+art.

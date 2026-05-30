@@ -1,0 +1,9 @@
+{
+	"cases_per_screening_day":	24,
+	"minutes_saved_per_day":	96,
+	"hours_saved_per_20_days":	32,
+	"referral_rescues_per_100":	18,
+	"urgent_reviews_captured_per_100":	100,
+	"low_resource_fit":	92,
+	"niddk_fit":	96
+}

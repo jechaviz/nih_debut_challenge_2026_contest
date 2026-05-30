@@ -11,6 +11,7 @@ Core path: `C:\git\v_projects\nih_debut_challenge_2026`
 - Produces KDIGO-style risk bands.
 - Flags validation issues and red-flag escalation.
 - Generates evidence JSON, CSV fixtures and submission manifest.
+- Generates an internal DEBUT judge scorecard and workflow impact model.
 - Serves a Vue3 CDN + SFC + UnoCSS dashboard for reviewers.
 
 ## Run locally
@@ -29,3 +30,11 @@ Open `http://127.0.0.1:4286`.
 DEBUT asks for a working prototype and evidence that the design concept produces
 targeted results. This MVP demonstrates the clinical workflow, deterministic
 logic, generated receipts and test cases without claiming clinical validation.
+
+## Competitive additions
+
+- Impact model: screening-day time saved, referral rescues and NIDDK fit.
+- Judge scorecard: significance, impact, innovation, prototype, evaluation and
+  communication.
+- Design-control docs: intended use, not-intended use, inputs, outputs and
+  verification evidence.

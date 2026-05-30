@@ -1,0 +1,40 @@
+{
+	"workflow_minutes_saved":	96,
+	"followup_rescue":	18,
+	"low_resource_fit":	92,
+	"debut_criteria_score":	91,
+	"niddk_fit":	96,
+	"total":	91,
+	"total_score":	91,
+	"criteria":	[{
+			"axis":	"Significance of problem",
+			"weight":	20,
+			"score":	19,
+			"evidence":	"CDC CKD burden plus NIDDK eGFR/UACR screening gap."
+		}, {
+			"axis":	"Impact on users and care",
+			"weight":	20,
+			"score":	19,
+			"evidence":	"Clinician handoff receipt and referral rescue model."
+		}, {
+			"axis":	"Innovation of design",
+			"weight":	20,
+			"score":	17,
+			"evidence":	"Transparent CKD workflow safety system, not opaque AI."
+		}, {
+			"axis":	"Working prototype",
+			"weight":	20,
+			"score":	19,
+			"evidence":	"Vlang core, Vue demo, receipts and screenshots."
+		}, {
+			"axis":	"Evaluation quality",
+			"weight":	10,
+			"score":	9,
+			"evidence":	"Synthetic fixtures and expected-label tests."
+		}, {
+			"axis":	"Communication and adoption",
+			"weight":	10,
+			"score":	8,
+			"evidence":	"Narrative, fact sheet, video plan and no-submit automation."
+		}]
+}

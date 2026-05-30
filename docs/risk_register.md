@@ -35,3 +35,18 @@
 - Risk: online portal fields differ from the prepared form map.
 - Mitigation: WAIBA playbooks run draft/preflight only and produce receipts; final
   submit remains authorized captain action.
+
+## R6: Software looks less tangible than device entries
+
+- Severity: high.
+- Risk: hardware-heavy winners make RenalCue appear too lightweight.
+- Mitigation: present RenalCue as a workflow safety system with design controls,
+  generated evidence receipts, impact model and three-case live video.
+
+## R7: Low-resource framing too broad
+
+- Severity: medium.
+- Risk: reviewers reject global low-resource framing because DEBUT prize language
+  focuses on U.S. low-resource settings.
+- Mitigation: use U.S. safety-net, rural, FQHC and uninsured/underinsured
+  examples in final materials.

@@ -18,6 +18,10 @@ management or nephrology review.
 - NIDDK notes albuminuria is present when UACR is greater than 30 mg/g.
 - KDIGO 2024 classifies CKD by Cause, GFR and Albuminuria, and uses GFR and
   albuminuria categories to stratify risk.
+- KDIGO 2024 supports risk-based CKD care and references kidney-failure risk
+  equations such as KFRE for referral planning in CKD G3-G5.
+- CKD CDS evidence suggests workflow adoption matters: a tool must create a
+  visible action and clinician handoff, not only compute a background score.
 
 ## Target users
 
@@ -39,3 +43,10 @@ and next action.
 Build a working software prototype that demonstrates a low-cost, transparent and
 accessible CKD triage workflow using synthetic cases. The prototype should be
 easy for an undergraduate team to explain, test and extend with clinician input.
+
+## Low-resource definition
+
+For DEBUT, low-resource is framed as U.S. safety-net clinics, rural clinics,
+FQHCs, community health worker programs and uninsured or underinsured screening
+workflows. RenalCue does not depend on EHR integration, a cloud account or new
+specialist hardware for prototype demonstration.

@@ -18,10 +18,11 @@ a transparent decision-support workflow for clinician review.
 CKD is common and frequently undiagnosed. CDC describes CKD as affecting more
 than 1 in 7 U.S. adults, with many people unaware they have it. Diabetes and
 hypertension are major drivers of kidney failure. NIDDK identifies eGFR and UACR
-as key markers, while KDIGO 2024 frames risk by cause, GFR and albuminuria. In
-community settings, these measurements may not be converted into clear action
-quickly enough. A low-cost software workflow can help teams identify which cases
-need prevention counseling, repeat labs, primary-care CKD management, nephrology
+as key markers, while KDIGO 2024 frames risk by cause, GFR and albuminuria and
+supports risk-based referral planning. In U.S. safety-net, rural and FQHC
+settings, these measurements may not be converted into clear action quickly
+enough. A low-cost software workflow can help teams identify which cases need
+prevention counseling, repeat labs, primary-care CKD management, nephrology
 referral or urgent clinician review.
 
 ## 3. Objective And Innovation
@@ -39,19 +40,22 @@ The Vlang core separates clinical calculations, validators, recommendation
 policy, synthetic data and report generation. The Vue3 demo reads generated JSON
 and shows case-level outputs, risk distribution and submission readiness. The
 current MVP uses CKD-EPI 2021 creatinine eGFR, GFR categories, UACR categories
-and deterministic routing rules. Input validators catch missing or out-of-range
-values. Red-flag symptoms and severe blood pressure trigger same-day clinician
-review.
+and deterministic routing rules compatible with KDIGO-style risk categories.
+Input validators catch missing or out-of-range values. Red-flag symptoms and
+severe blood pressure trigger same-day clinician review. A design-controls file
+defines intended use, not-intended use, user needs, design inputs, outputs and
+verification evidence.
 
 ## 5. Prototype And Evaluation
 
 The working prototype includes eight synthetic cases covering low, moderate,
 high and very-high kidney-risk states. Unit tests verify eGFR staging,
-albuminuria staging, input validation and 100% agreement with expected fixture
-labels. The generated evidence includes CSV fixtures, case-results JSON,
-readiness report JSON and a submission manifest. This evaluation proves the MVP
-workflow operates deterministically on known cases; it does not claim clinical
-performance on real patient data.
+albuminuria staging, input validation, impact scoring and 100% agreement with
+expected fixture labels. The generated evidence includes CSV fixtures,
+case-results JSON, impact-model JSON, judge-scorecard JSON, readiness report JSON
+and a submission manifest. This evaluation proves the MVP workflow operates
+deterministically on known cases; it does not claim clinical performance on real
+patient data.
 
 ## 6. Video Link
 

@@ -51,10 +51,16 @@ Snapshot date: 2026-05-30
 ## Prize fit
 
 - Primary: NIDDK Kidney Technology Development Prize.
-- Secondary: Healthcare technologies for underserved populations or low-resource
-  settings.
+- Secondary: NIMHD Healthcare Technologies for Low-Resource Settings Prize,
+  framed for U.S. safety-net, rural, FQHC, uninsured or underinsured workflows.
 - Additional fit: community nursing workflows if a nurse-led intake partner is
   documented.
+
+## Judging criteria
+
+NIH/NIBIB judging centers on problem significance, impact on users and clinical
+care, design innovation and the existence of a working prototype. VentureWell
+adds market/economic potential and IP/patentability considerations.
 
 ## Accessibility and safety
 

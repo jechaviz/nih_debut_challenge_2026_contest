@@ -12,6 +12,15 @@ Status: `ready_for_undergraduate_team_submission`
 - Undergraduate team gate: `docs/undergraduate_team_required.md`
 - MVP documentation: `docs/mvp_demo.md`
 - Test cases: `docs/test_cases.md`
+- Competition strategy: `docs/competition_strategy.md`
+- Competitive landscape: `docs/competitive_landscape.md`
+- Evidence table: `docs/evidence_table.md`
+- Judge scorecard: `docs/judge_scorecard.md`
+- Clinician validation protocol: `docs/clinician_validation_protocol.md`
+- Design controls: `docs/design_controls.md`
+- Traceability matrix: `docs/traceability_matrix.md`
+- Final video shotlist: `docs/final_video_shotlist.md`
+- Fact sheet: `submission/one_page_fact_sheet.md`
 - Risk register: `docs/risk_register.md`
 - Ethics/safety draft: `docs/ethics_safety_attestation_draft.md`
 - Project narrative draft: `submission/project_narrative_6page_draft.md`
@@ -20,6 +29,8 @@ Status: `ready_for_undergraduate_team_submission`
 - Form map: `submission/form_map.yml`
 - Desktop screenshot: `evidence/web_demo_desktop.png`
 - Mobile screenshot: `evidence/web_demo_mobile.png`
+- Impact model: `evidence/impact_model_v.json`
+- Judge scorecard: `evidence/judge_scorecard_v.json`
 - Automation receipts: `automation/evidence/`
 
 ## Product links

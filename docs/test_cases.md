@@ -9,6 +9,8 @@ Synthetic data: `data/synthetic_cases.csv`
 - Albuminuria stage check for UACR above 300 mg/g.
 - Synthetic fixture pass rate must be 100%.
 - Invalid clinical input must return validation errors.
+- Impact model must produce competitive workflow metrics.
+- Scorecard label must be at least `competitive_finalist`.
 
 ## Synthetic fixture coverage
 
@@ -24,5 +26,7 @@ Synthetic data: `data/synthetic_cases.csv`
 
 - `evidence/case_results_v.json`
 - `evidence/readiness_report_v.json`
+- `evidence/impact_model_v.json`
+- `evidence/judge_scorecard_v.json`
 - `submission/generated/nih_submission_manifest.json`
 - `C:\git\websites\nih_debut_challenge_2026\src\data\case_results.json`

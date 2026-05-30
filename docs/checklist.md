@@ -12,6 +12,9 @@ Status: `ready_for_undergraduate_team_submission`
 - [x] Readiness report and manifest.
 - [x] Desktop and mobile screenshot evidence.
 - [x] WAIBA draft/preflight receipts.
+- [x] Competition strategy and judge scorecard.
+- [x] Design controls and clinician validation protocol.
+- [x] One-page fact sheet.
 - [x] 6-page narrative draft.
 - [x] Video outline.
 - [x] Risk register.
@@ -25,6 +28,8 @@ Status: `ready_for_undergraduate_team_submission`
 - [ ] Confirm faculty sponsor.
 - [ ] Collect signed certification form.
 - [ ] Add sponsor letter on letterhead.
+- [ ] Add one clinician/nurse/stakeholder validation quote.
+- [ ] Add one support letter if available.
 
 ## Final upload
 
