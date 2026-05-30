@@ -16,5 +16,5 @@
   "project_summary": "RenalCue combines eGFR, UACR, blood pressure and red-flag checks into explainable CKD triage receipts for low-resource community workflows.",
   "pdf_upload": "PRIVATE_REQUIRED_FINAL_SINGLE_PDF",
   "video_url": "PRIVATE_REQUIRED_3_MIN_VIDEO",
-  "final_submit_allowed": false
+  "submission_execution": "official_portal_session_with_eligible_student_captain"
 }

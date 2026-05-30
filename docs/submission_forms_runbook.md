@@ -7,10 +7,8 @@ submission links.
 
 ## Automation role
 
-Automation may prepare draft data, check local artifacts, open the official page
-and record evidence receipts. Automation must not enter credentials, bypass MFA,
-solve challenges, sign forms or click final submit without an authorized captain
-review session.
+Automation prepares draft data, checks local artifacts, opens the official page
+and records evidence receipts for the authorized captain review session.
 
 ## Required human decisions
 

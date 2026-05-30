@@ -1,6 +1,6 @@
 # Undergraduate Team Outreach Pack
 
-Status: `required_before_external_submit`
+Status: `ready_for_student_partner_adoption`
 
 ## Ask
 

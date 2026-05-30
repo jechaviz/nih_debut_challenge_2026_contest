@@ -12,7 +12,7 @@ Target duration: 3 minutes.
 | 1:45-2:08 | Impact and scorecard panels | Explain why this maps to DEBUT criteria and NIDDK fit. |
 | 2:08-2:32 | Architecture strip | Vlang core, generated JSON receipts, Vue demo and WAIBA preflight. |
 | 2:32-2:50 | Validation protocol slide | Clinicians review routing, safety flags and usability using synthetic cases. |
-| 2:50-3:00 | Team/faculty slide | Undergraduate ownership, sponsor letter and final submission gate. |
+| 2:50-3:00 | Team/faculty slide | Undergraduate ownership, sponsor letter and final submission sequence. |
 
 ## Production rules
 

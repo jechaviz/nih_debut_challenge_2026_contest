@@ -6,8 +6,8 @@
 - Vlang core: CKD-EPI calculation, staging, validators, recommendations, CLI,
   static server and generated receipts.
 - Vue3 demo: reviewer-facing interface that reads generated JSON only.
-- WAIBA playbooks: external form draft and dashboard preflight automation with
-  final submit blocked.
+- WAIBA playbooks: external form draft, dashboard preflight and official portal
+  execution support.
 
 ## Core modules
 

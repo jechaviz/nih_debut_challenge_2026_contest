@@ -26,7 +26,7 @@ This is the aggressive path for the eligible undergraduate team.
 - Captain opens official portal.
 - Fill private roster/signature fields.
 - Upload PDF and paste video link.
-- Review no-submit checklist.
+- Review submission checklist.
 
 ## T minus 6 hours
 

@@ -8,7 +8,7 @@
 | Escalate urgent safety cases | Red flags, severe BP, G5 range | Urgent clinician review | Red-flag synthetic cases | `evidence/case_results_v.json` |
 | Show low-resource value | Screening volume and time assumptions | Impact model | Impact unit test | `evidence/impact_model_v.json` |
 | Answer DEBUT judging criteria | Prototype and evidence package | Judge scorecard | Scorecard unit test | `evidence/judge_scorecard_v.json` |
-| Support final submit safely | Portal artifact map | WAIBA preflight receipts | WAIBA validate/run | `automation/evidence/` |
+| Support submission execution | Portal artifact map | WAIBA preflight receipts | WAIBA validate/run | `automation/evidence/` |
 
 ## Design-control note
 

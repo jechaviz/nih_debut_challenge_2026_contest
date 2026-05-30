@@ -1,13 +1,13 @@
 {
-	"version":	"0.5.0",
+	"version":	"1.0.0",
 	"project":	"RenalCue: Community CKD Triage Software",
 	"internal_track":	"student_partner_track",
-	"status":	"ready_for_undergraduate_team_submission",
+	"status":	"ready_for_submission_packet",
 	"primary_prize_fit":	"NIDDK Kidney Technology Development Prize",
 	"secondary_fit":	"Healthcare Technologies for Low-Resource Settings Prize",
 	"required_pdf":	"submission/project_narrative_6page_draft.md",
 	"video_outline":	"docs/video_outline.md",
 	"website":	"C:/git/websites/nih_debut_challenge_2026",
 	"product_core":	"C:/git/v_projects/nih_debut_challenge_2026",
-	"final_submit_gate":	"eligible_team_captain_authorization_required"
+	"submission_execution":	"official_portal_session_with_eligible_student_captain"
 }

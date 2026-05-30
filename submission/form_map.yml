@@ -1,7 +1,7 @@
 version: nih_debut_challenge_2026.v1
 track: student_partner_track
 portal_start: https://venturewell.org/debut/
-final_submit_allowed: false
+submission_execution: official_portal_session_with_eligible_student_captain
 fields:
   project_title:
     source: submission/nih_submission_payload.template.json#project_title

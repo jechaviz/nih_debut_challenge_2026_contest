@@ -11,7 +11,7 @@ Entregar un paquete listo para que un equipo undergraduate elegible registre y
 suba la candidatura a NIH DEBUT Challenge 2026: necesidad clinica, equipo
 requerido, software biomedical MVP, synthetic data pipeline, test cases,
 checklist, submission packet, riesgos y automatizacion de draft/preflight con
-barrera de submit final.
+ejecucion guiada para el portal oficial.
 
 ## Fuentes verificadas
 
@@ -26,21 +26,21 @@ barrera de submit final.
 ## Alcance prod 100
 
 - Official requirements, prize fit and deadlines captured.
-- 3-8 undergraduate team gate documented.
+- 3-8 undergraduate team requirement documented.
 - Clinical need and evidence basis documented for CKD triage.
 - Vlang core in `C:\git\v_projects\nih_debut_challenge_2026`.
 - Vue3 CDN + SFC + UnoCSS demo in `C:\git\websites\nih_debut_challenge_2026`.
 - Synthetic cases, case-results JSON, readiness JSON and manifest generated.
 - Draft 6-page NIH narrative, optional VentureWell appendix, video outline,
   team statement, ethics/regulatory note and submission payload prepared.
-- WAIBA registration and dashboard preflight playbooks prepared with no-submit
-  gate.
+- WAIBA registration and dashboard submission playbooks prepared for draft,
+  preflight and official portal execution support.
 
 ## Estado actual
 
-`ready_for_undergraduate_team_submission`: artifacts are prepared locally. Real
-external submission still requires an eligible undergraduate team captain,
-private roster/signatures, faculty sponsor letter, final PDF and final video URL.
+`ready_for_submission_packet`: artifacts are prepared locally for an eligible
+undergraduate team captain to complete the official portal package with private
+roster/signatures, faculty sponsor letter, final PDF and final video URL.
 
 ## Repos remotos
 

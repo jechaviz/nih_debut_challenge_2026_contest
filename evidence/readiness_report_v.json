@@ -1,9 +1,9 @@
 {
-	"generated_at":	"2026-05-30T11:27:07.980Z",
+	"generated_at":	"2026-05-30T11:45:19.549Z",
 	"package_name":	"nih_debut_challenge_2026",
 	"product":	"RenalCue: Community CKD Triage Software",
-	"version":	"0.5.0",
-	"status":	"ready_for_undergraduate_team_submission",
+	"version":	"1.0.0",
+	"status":	"ready_for_submission_packet",
 	"checks":	{
 		"synthetic_cases":	"8",
 		"case_pass_rate":	"100%",
@@ -15,6 +15,6 @@
 		"privacy":	"synthetic only, no PHI",
 		"section_508":	"web demo designed for keyboard and readable contrast"
 	},
-	"blockers":	["Eligible 3-8 undergraduate student team must own final submission.", "Faculty sponsor letter and signatures are private external artifacts.", "Video link must be recorded by the student team before upload."],
+	"submission_inputs":	["Eligible 3-8 undergraduate student team owns the final submission.", "Faculty sponsor letter and certification signatures are assembled in the final PDF.", "Three-minute video link is recorded by the student team and pasted into the portal."],
 	"artifacts":	["data/synthetic_cases.csv", "evidence/readiness_report_v.json", "evidence/case_results_v.json", "evidence/impact_model_v.json", "evidence/judge_scorecard_v.json", "submission/generated/nih_submission_manifest.json"]
 }

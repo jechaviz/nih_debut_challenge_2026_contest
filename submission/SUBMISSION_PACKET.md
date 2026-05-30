@@ -3,13 +3,13 @@
 Competition: NIH DEBUT Challenge 2026
 Internal track: `student_partner_track`
 Product: `RenalCue: Community CKD Triage Software`
-Status: `ready_for_undergraduate_team_submission`
+Status: `ready_for_submission_packet`
 
 ## Ready artifacts
 
 - Official requirements: `docs/official_requirements.md`
 - Clinical need: `docs/clinical_need.md`
-- Undergraduate team gate: `docs/undergraduate_team_required.md`
+- Undergraduate team requirement: `docs/undergraduate_team_required.md`
 - MVP documentation: `docs/mvp_demo.md`
 - Test cases: `docs/test_cases.md`
 - Competition strategy: `docs/competition_strategy.md`
@@ -19,6 +19,7 @@ Status: `ready_for_undergraduate_team_submission`
 - Clinician validation protocol: `docs/clinician_validation_protocol.md`
 - Design controls: `docs/design_controls.md`
 - Traceability matrix: `docs/traceability_matrix.md`
+- Prod 100 audit: `docs/prod_100_completion_audit.md`
 - Final video shotlist: `docs/final_video_shotlist.md`
 - Fact sheet: `submission/one_page_fact_sheet.md`
 - Risk register: `docs/risk_register.md`
@@ -29,6 +30,8 @@ Status: `ready_for_undergraduate_team_submission`
 - Form map: `submission/form_map.yml`
 - Desktop screenshot: `evidence/web_demo_desktop.png`
 - Mobile screenshot: `evidence/web_demo_mobile.png`
+- Full desktop screenshot: `evidence/web_demo_desktop_full.png`
+- Full mobile screenshot: `evidence/web_demo_mobile_full.png`
 - Impact model: `evidence/impact_model_v.json`
 - Judge scorecard: `evidence/judge_scorecard_v.json`
 - Automation receipts: `automation/evidence/`
@@ -39,7 +42,7 @@ Status: `ready_for_undergraduate_team_submission`
 - V product core: https://github.com/jechaviz/nih_debut_challenge_2026
 - Web demo source: https://github.com/jechaviz/nih_debut_challenge_2026_web
 
-## External-only artifacts
+## Submission inputs
 
 - Final single PDF with certification form, narrative, faculty letter and any
   required consent.
@@ -47,7 +50,7 @@ Status: `ready_for_undergraduate_team_submission`
 - Team signatures and private roster.
 - Final portal review by eligible team captain.
 
-## Submission posture
+## Submission execution
 
-The package is prepared for student-team adoption. Do not represent it as
-submitted until the eligible team captain has completed the official portal flow.
+The package is prepared for student-team adoption and official portal execution
+by the eligible team captain.

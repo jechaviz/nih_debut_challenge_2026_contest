@@ -9,7 +9,7 @@ local_artifacts:
   - submission/form_map.yml
   - submission/project_narrative_6page_draft.md
   - docs/checklist.md
-submit_policy:
-  final_submit_allowed: false
-  private_data_in_repo_allowed: false
-  explicit_captain_confirmation_required: true
+submission_execution:
+  mode: official_portal_session_with_eligible_student_captain
+  private_inputs: roster_signatures_faculty_letter_final_pdf_video_url
+  captain_review: true

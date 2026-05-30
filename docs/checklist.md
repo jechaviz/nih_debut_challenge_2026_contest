@@ -1,6 +1,6 @@
 # Submission Checklist
 
-Status: `ready_for_undergraduate_team_submission`
+Status: `ready_for_submission_packet`
 
 ## Local package
 
@@ -20,7 +20,7 @@ Status: `ready_for_undergraduate_team_submission`
 - [x] Risk register.
 - [x] Automation runbooks.
 
-## Team gate
+## Team requirements
 
 - [ ] Confirm 3-8 eligible undergraduate students.
 - [ ] Confirm team captain is U.S. citizen or permanent resident.
@@ -37,4 +37,4 @@ Status: `ready_for_undergraduate_team_submission`
 - [ ] Verify Arial 11+ and 6-page narrative limit.
 - [ ] Record and publish 3-minute video.
 - [ ] Upload through authorized VentureWell/DEBUT portal session.
-- [ ] Do final human review before submit.
+- [ ] Complete final captain review and submit.

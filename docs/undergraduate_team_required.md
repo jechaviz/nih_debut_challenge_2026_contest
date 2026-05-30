@@ -1,6 +1,6 @@
 # Undergraduate Team Required
 
-Status: `external_gate`
+Status: `contest_requirement`
 
 NIH DEBUT is not an open company or solo-builder submission. Final submission
 must be owned by a qualifying student team.
@@ -24,14 +24,14 @@ must be owned by a qualifying student team.
 - Accessibility and documentation lead: Section 508 review, video and PDF.
 - Faculty sponsor: scope guard, academic ownership and letter.
 
-## Private information not stored here
+## Team-private inputs
 
 - Student names, citizenship/permanent-resident answers and signatures.
 - Dates of birth or any under-18 parental consent details.
 - Faculty sponsor contact details until the team authorizes inclusion.
 - Portal credentials or submission dashboard tokens.
 
-## Handoff message
+## Partner message
 
 We have a submission-ready biomedical software package for NIH DEBUT 2026. The
 student team will own the project, validate the prototype, record the video,

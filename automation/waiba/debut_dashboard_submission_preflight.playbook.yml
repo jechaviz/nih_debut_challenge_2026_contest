@@ -24,7 +24,7 @@ steps:
         name: "dashboard_preflight_start"
         message: "NIH DEBUT dashboard upload preflight started."
         data:
-          final_submit_allowed: false
+          submission_execution: "official_portal_session_with_eligible_student_captain"
           dashboard_url_expected_from_portal: true
 
     - action: FS.Exists
@@ -63,21 +63,21 @@ steps:
           video_outline_exists: "${video_outline_exists}"
           website_demo_exists: "${demo_exists}"
           checklist_exists: "${checklist_exists}"
-          missing_private_items:
+          portal_session_inputs:
             - "final single PDF"
             - "signed certification form"
             - "faculty sponsor letter"
             - "final 3-minute video URL"
-            - "student captain final approval"
+            - "student captain final review"
 
     - action: Trace.Event
       params:
         path: "${TRACE_PATH}"
-        name: "final_submit_gate"
-        message: "Do not submit until eligible undergraduate captain approves final portal payload."
+        name: "submission_execution_step"
+        message: "Eligible undergraduate captain reviews and submits the final portal payload."
         data:
-          final_submit_allowed: false
-          explicit_confirmation_required: true
+          submission_execution: "official_portal_session_with_eligible_student_captain"
+          captain_review: true
 
   debug:
     - action: Note
