@@ -49,6 +49,11 @@ foreach ($Path in $ExternalRequired) {
 }
 
 $env:VMODULES = "C:\git\v_projects\lib"
-v test C:\git\v_projects\nih_debut_challenge_2026
-v run C:\git\v_projects\nih_debut_challenge_2026\cmd\debutckd qa --worth-it $Root --site C:\git\websites\nih_debut_challenge_2026
+Push-Location C:\git\v_projects\nih_debut_challenge_2026
+try {
+  v test .
+  v run .\cmd\debutckd qa --worth-it $Root --site C:\git\websites\nih_debut_challenge_2026
+} finally {
+  Pop-Location
+}
 Write-Host "NIH DEBUT package validation passed."
